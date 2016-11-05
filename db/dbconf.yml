@@ -1,0 +1,6 @@
+development:
+    driver: mysql
+    open: root@tcp(localhost:3306)/sample_store_db
+test:
+    driver: mysql
+    open: root@tcp(localhost:3306)/sample_store_test_db
